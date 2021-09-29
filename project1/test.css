@@ -1,0 +1,35 @@
+h1 {
+    color: blue;    
+    }
+    
+    header {
+        background-color: grey;
+    }
+    .hbackground{
+        background-color: grey;
+    }
+    
+    
+    .row{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    } 
+        
+    .rowright{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+    
+    .rowleft{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        
+    }
+    
+    .nav {
+        display: flex;
+    
+    }
