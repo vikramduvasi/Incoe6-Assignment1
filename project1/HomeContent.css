@@ -94,7 +94,7 @@ div h2 {
    } */
 
    .bottom{
-    position: absolute;
+    /* position: absolute; */
     width: fit-content;
        margin: 100px;
    }
@@ -137,7 +137,7 @@ div h2 {
       
     }
     .bottom{
-        position: absolute;
+        /* position: absolute; */
         width: fit-content;
          
        }
@@ -164,3 +164,91 @@ div h2 {
 
 
 
+
+  
+
+/* 
+  .footer1 {
+    background-color:rgb(189, 189, 189);
+    left: 0;
+    bottom: 0; 
+    width: 100%
+}
+.container {
+    width: 100%;
+    
+    margin:20px;
+        /* border: 2px solid blue; */
+
+    
+}
+
+
+ /* footer ::after {
+    content: '';
+    display: table;
+    clear: both;
+}  */
+
+.logo{
+    float:left;
+    padding: 25px 10px;
+   
+    /* border: 2px solid red; */
+}
+
+.content {
+    border: 2px solid red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* padding-left: 400px; */
+}
+
+ul {
+    
+    list-style: none;
+    display: flex
+
+}
+
+li {
+    align-items: center;
+    padding: 2px;
+    margin: 2px;
+}
+nav {
+    align-items: center;
+}
+
+.content li{
+    margin : 0 10px;
+}
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+    
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      max-width: 600px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    /* .view {
+        width: 600px;
+    } */
+  } */

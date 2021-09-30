@@ -1,42 +1,61 @@
-body{
+/* body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;   
     color: black;
+} */
+
+/* *{
+    
+    box-sizing: border-box;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-}
+body{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    background-color: rgb(241 241 241);
+} */
 
-footer {
-    background-color:grey;
-    position: absolute;
-    bottom: 0;
+
+
+
+.footer1 {
+    background-color:rgb(189, 189, 189);
+    /* position: absolute;
     left: 0;
-    right: 0;
+    bottom: 0; */
+    width: 100%;
+    margin-top: 600px;
+}
+.container {
+    width: 100%;
+    
+    margin:20px;
+        /* border: 2px solid blue; */
+
+    
 }
 
-footer ::after {
+
+ /* footer ::after {
     content: '';
     display: table;
     clear: both;
-}
+}  */
 
 .logo{
     float:left;
     padding: 25px 10px;
+   
+    /* border: 2px solid red; */
 }
 
 .content {
-    
+    border: 2px solid red;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 400px;
+   /* padding-left: 400px; */
 }
 
 ul {
@@ -60,28 +79,39 @@ nav {
 }
 
 
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
 
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-}
-
-img { max-width: 100%; height: auto; }
-
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
     }
-}
+    
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      max-width: 600px;
 
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
     }
-}
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer1{
+        margin-top: 850px;
+    }
+    /* .view {
+        width: 600px;
+    } */
+  }
+/* 
+.footer{
+    padding-bottom: 0px;
+    position:absolute;
+} */
+
+

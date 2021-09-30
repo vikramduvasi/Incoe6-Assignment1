@@ -1,0 +1,139 @@
+
+header  {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;   
+    background-color: grey;
+    width: 100%;
+}
+
+.container1 {
+    width: 100%;
+   border: 2px solid blue;        
+    /* display: flex;
+   
+    justify-content: center;
+    align-items: center; */
+}
+
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: wheat;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid red;
+    /* margin-right: auto; */
+    margin-right: auto;
+}
+
+.list{
+    display: flex;
+    margin-right: 20px;
+    justify-content:space-around;
+    border: 2px solid red;
+ 
+}
+
+/* .topnav {
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    justify-content:space-evenly;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red; */
+
+    /* flex-shrink: 1; */
+}
+
+/* 
+header ::after {
+    content: '';
+    display: table;
+    clear: both;
+} */
+
+
+/* 
+nav {
+    float: right;
+} */
+
+nav ul {
+ /* margin: 0;
+ padding: 0; */
+ list-style: none;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;      
+        align-items: stretch;
+        justify-content: space-between;
+      
+    }
+    .bottom{
+        position: absolute;
+        width: fit-content;
+         
+       }
+    
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      max-width: 600px;
+    }
+    .view {
+        width: 600px;
+    }
+       .img_header {
+           width: 70px;
+       }   
+
+       .list{
+        display: flex;
+        
+        margin-right: auto;
+        /* justify-content:space-around; */
+        border: 2px solid red;
+     
+    }
+
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+        border: 2px solid red;
+        
+    }
+.container1{
+    width: 100%;
+}    
+    
+.topnav {
+    max-width: 80%;
+    display: inline;
+}
+  }
+
+
+
+
+
+
